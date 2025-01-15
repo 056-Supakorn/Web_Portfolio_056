@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ex_box_model</Ex></title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        line-height: 1.6;
+        text-align: center;
+      }
+      .solid-border {
+        width: 1000px;
+        margin: 20px auto;
+        border: 1px solid black;
+        padding: 20px;
+      }
+      h1 {
+        margin: buttom 10px;
+      }
+      span {
+        font-weight: bold;
+      }
+      .solid-line {
+        border-block-end: 1px solid black;
+        margin-bottom: 5px;
+        padding: 15px;
+      }
+      ul.menu > li {
+        display: inline;
+        margin-right: 15px;
+      }
+      ul.menu a {
+        text-decoration: none;
+      }
+      a:visited {
+        background-color: red;
+      }
+      .solid-line2 {
+        border-block-end: 1px solid black;
+        margin-bottom: 20px;
+        padding: 15px;
+      }
+      .pic3{
+        width: 300px;
+        height: 300px;
+        padding: 0px;
+        margin: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="solid-border">
+      <h1>
+        THE <br>
+        <span>ANALOG</span><br>
+        SPECIALISTS
+      </h1>
+      <div class="solid-line"></div>
+      <ul class="menu">
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">FOR SALE</a></li>
+        <li><a href="#">REPAIRS</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
+      <div class="solid-line2"></div>
+      <img src="img/pic4.jpg" alt="" class="pic3" />
+      <img src="img/pic5.jpg"  alt="" class="pic3" />
+      <img src="img/pic6.jpg" alt="" class="pic3" />
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptates
+        distinctio magni excepturi, a vero dolorem nisi eaque iusto, cumque
+        numquam, itaque quaerat corporis iure aspernatur molestiae voluptatem
+        accusantium odio.
+      </div>
+    </div>
+  </body>
+</html>

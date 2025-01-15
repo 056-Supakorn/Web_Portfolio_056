@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS: Box-model</title>
+    <style>
+        *,
+        *:before,
+        *:after{
+            box-sizing: border-box;
+        }
+      h1 {
+        background-color: yellow;
+      }
+      p.text {
+        width: 300px;
+        background-color: bisque;
+        color: rgb(38, 10, 10);
+      }
+
+      span.text {
+        background-color: rgb(246, 255, 0);
+        color: rgb(255, 47, 0);
+        display: none;
+      }
+      .box1,
+      .box2,
+      .box3 {
+        width: 300px;
+        border: 2px solid red;
+        border-radius: 30px;
+        padding: 10px;
+        margin: 10px;
+      }
+      .box1 {
+        background-color: rgb(255, 178, 45);
+      }
+      .box2 {
+        background-color: rgb(101, 255, 201);
+      }
+      .box3 {
+        background-color: rgb(231, 255, 122);
+      }
+      ul.menu > li {
+        display: inline;
+        margin-right: 15px;
+      }
+      ul.menu a {
+        text-decoration: none;
+      }
+      ul.menu a:hover {
+        background-color: yellow;
+      }
+      a:visited {
+        background-color: rgb(255, 0, 0);
+      }
+      .pic3{
+        width: 300px;
+        border-radius: 20px;
+        padding: 10px;
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome</h1>
+    <ul class="menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">HTML</a></li>
+      <li><a href="#">CSS</a></li>
+    </ul>
+    <a href="#">Google</a>
+    <a href="#">Home</a>
+    <p class="text">
+      Lorem, ipsum dolor sit amet
+      <span class="text">consectetur</span> adipisicing elit. Vitae nulla sit
+      unde quia consequatur rerum ullam amet eius incidunt placeat totam
+      dolorem, voluptas aut non veritatis quibusdam tempore itaque voluptatibus?
+    </p>
+    <div class="box1">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam et quod
+      tempore? Minima cum aut tempore ipsum, aspernatur sequi fugiat. Rem,
+      obcaecati magnam! Ullam quasi ipsa excepturi! Autem, placeat obcaecati!
+    </div>
+    <div class="box2">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam et quod
+      tempore? Minima cum aut tempore ipsum, aspernatur sequi fugiat. Rem,
+      obcaecati magnam! Ullam quasi ipsa excepturi! Autem, placeat obcaecati!
+    </div>
+    <div class="box3">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam et quod
+      tempore? Minima cum aut tempore ipsum, aspernatur sequi fugiat. Rem,
+      obcaecati magnam! Ullam quasi ipsa excepturi! Autem, placeat obcaecati!
+    </div>
+    <img src="pic/pic3.jpg" alt="" class="pic3">
+    <img src="pic/pic3.jpg" alt="" class="pic3">
+    <img src="pic/pic3.jpg" alt="" class="pic3">
+  </body>
+</html>
